@@ -7,7 +7,7 @@
   ·
   <a href="https://github.com/wajeeha-asad"><strong>GitHub</strong></a>
   ·
-  <a href="https://www.linkedin.com/in/wajeeha-asad/"><strong>LinkedIn</strong></a>
+  <a href="https://www.linkedin.com/in/wajeehaasad/"><strong>LinkedIn</strong></a>
 </p>
 
 ## ⭐ About the Portfolio
@@ -183,7 +183,7 @@ I enjoy turning practical problems into software using **Python, Machine Learnin
 
 - **Portfolio:** https://wajeehaasad-portfolio.vercel.app
 - **GitHub:** https://github.com/wajeeha-asad
-- **LinkedIn:** https://www.linkedin.com/in/wajeeha-asad/
+- **LinkedIn:** https://www.linkedin.com/in/wajeehaasad/
 
 ## 📄 Resume
 
