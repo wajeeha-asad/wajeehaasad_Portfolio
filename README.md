@@ -10,7 +10,7 @@
   <a href="https://www.linkedin.com/in/wajeeha-asad/"><strong>LinkedIn</strong></a>
 </p>
 
-## ✦ About the Portfolio
+## ⭐ About the Portfolio
 
 This repository contains the source code for my personal developer portfolio — designed to present not just what I build, but how I think about products, engineering, and user experience.
 
