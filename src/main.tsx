@@ -1510,15 +1510,9 @@ function App() {
 
           <form
             className="contact-form"
-            action={
-              import.meta.env
-                .VITE_FORMSPREE_ENDPOINT ||
-              'https://formspree.io/f/xzebkzdd'
-            }
+            action={import.meta.env.VITE_FORMSPREE_ENDPOINT}
             method="POST"
-            onSubmit={() =>
-              setFormState('sending')
-            }
+            onSubmit={() => setFormState('sending')}
           >
 
             <input
