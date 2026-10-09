@@ -253,20 +253,24 @@ const projects = [
    ========================================================= */
 
 const skills = [
-  { name: 'Python', percent: 30, group: 'Programming' },
-  { name: 'Machine Learning', percent: 30, group: 'AI / ML' },
-  { name: 'Generative AI', percent: 35, group: 'AI / ML' },
-  { name: 'FastAPI', percent: 40, group: 'Backend' },
-  { name: 'React', percent: 55, group: 'Frontend' },
-  { name: 'JavaScript', percent: 50, group: 'Frontend' },
-  { name: 'SQL / PostgreSQL', percent: 40, group: 'Data' },
-  { name: 'Canva', percent: 90, group: 'Design' },
-  { name: 'Git / GitHub', percent: 50, group: 'Tools' },
-  { name: 'Tailwind CSS', percent: 50, group: 'Frontend' },
+  { name: 'Python', percent: 80, group: 'Programming' },
+  { name: 'C++', percent: 80, group: 'Programming' },
+  { name: 'C#', percent: 80, group: 'Programming' },
+  { name: 'Machine Learning', percent: 75, group: 'AI / ML' },
+  { name: 'Generative AI', percent: 75, group: 'AI / ML' },
+  { name: 'FastAPI', percent: 75, group: 'Backend' },
+  { name: 'React', percent: 80, group: 'Frontend' },
+  { name: 'JavaScript', percent: 80, group: 'Frontend' },
+  { name: 'HTML / CSS', percent: 85, group: 'Frontend' },
+  { name: 'SQL / PostgreSQL', percent: 75, group: 'Data' },
+  { name: 'Canva', percent: 95, group: 'Design' },
+  { name: 'Git / GitHub', percent: 75, group: 'Tools' },
+  { name: 'Tailwind CSS', percent: 80, group: 'Frontend' },
   { name: 'Figma', percent: 30, group: 'Design' },
-  { name: 'RAG / Embeddings', percent: 35, group: 'GenAI' },
+  { name: 'RAG', percent: 75, group: 'GenAI' },
+  { name: 'Embeddings', percent: 35, group: 'GenAI' },
   { name: 'Docker / Cloud', percent: 20, group: 'DevOps' },
-  { name: 'Adobe Illustrator', percent: 90, group: 'Design' },
+  { name: 'Adobe Illustrator', percent: 95, group: 'Design' },
 ]
 
 /* =========================================================
@@ -1213,11 +1217,11 @@ function App() {
 
             <article className="timeline-card">
               <span className="timeline-dot" />
-              <div className="timeline-meta">2026 · HACKATHONS</div>
-              <h3>GenAI & Agentic AI Projects</h3>
-              <p>Contributed to CivicAgent PK, a policy-retrieval citizen-support prototype, and BrainX AI, a team-built medical AI concept where my role focused on frontend and UI.</p>
+              <div className="timeline-meta">2026 · HACKATHON PROJECTS</div>
+              <h3>GenAI Hackathon Contributor</h3>
+              <p>Built with teams during Pak Angels and ASPIRE Pakistan’s GenAI and Agentic AI hackathon/course. For CivicAgent PK, worked on Groq/Llama prompting and a ChromaDB-based policy-retrieval (RAG) workflow. For BrainX AI, contributed the frontend and UI. These are prototypes and collaborative projects, not award-winning or clinically validated products.</p>
               <div className="mini-tags">
-                <span>LLMs</span><span>RAG</span><span>Frontend</span><span>Collaboration</span>
+                <span>Python</span><span>LLM Prompting</span><span>ChromaDB</span><span>RAG</span><span>Frontend UI</span>
               </div>
             </article>
 
@@ -1382,24 +1386,65 @@ function App() {
 
               <div>
                 <span className="timeline-meta">
-                  TECH EVENTS
+                  RESEARCH / PUBLICATION
                 </span>
 
                 <h3>
-                  TECHXPO · Conferences · AI Events
+                  TECHXPO Abstract Book
                 </h3>
 
                 <p>
-                  Participated in university
-                  technology conferences and had
-                  an abstract published in the
-                  TECHXPO Abstract Book.
+                  An academic abstract was published in the TECHXPO Abstract Book. Conference and technology-event participation is listed separately from awards or certifications.
                 </p>
               </div>
 
               <span className="verified">
                 ✓
               </span>
+            </article>
+
+            <article>
+              <span className="cert-icon">
+                AI
+              </span>
+
+              <div>
+                <span className="timeline-meta">
+                  HACKATHON · 2026
+                </span>
+
+                <h3>
+                  Pak Angels × ASPIRE Pakistan GenAI & Agentic AI Hackathon/Course
+                </h3>
+
+                <p>
+                  Completed the program and contributed to team prototypes including CivicAgent PK and BrainX AI. Participation and project work are highlighted here; no prize or ranking is claimed.
+                </p>
+              </div>
+
+              <span className="verified">
+                ✓
+              </span>
+            </article>
+
+            <article>
+              <span className="cert-icon">
+                01
+              </span>
+
+              <div>
+                <span className="timeline-meta">
+                  UPCOMING · 20 OCT 2026
+                </span>
+
+                <h3>
+                  AI Innovation Hackathon 2026
+                </h3>
+
+                <p>
+                  Team lead for the AI Skills Proof Engine project with the Women in AI Research Club. Listed as an upcoming participation, not a completed award or result.
+                </p>
+              </div>
             </article>
 
           </div>
