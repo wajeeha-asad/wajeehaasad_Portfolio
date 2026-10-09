@@ -160,6 +160,48 @@ const projects = [
   },
 
   {
+    title: 'CivicAgent PK',
+    tag: 'GENAI / RAG HACKATHON',
+    desc: 'A bilingual citizen-support prototype that retrieves relevant policy information and helps structure complaint responses using an LLM-assisted workflow.',
+    tech: ['Python', 'Groq', 'ChromaDB', 'RAG'],
+    rating: 4,
+    match: 'TEAM BUILD',
+    episode: 'HACKATHON / 03',
+    tone: 'skill',
+    image: '/assets/projects/civicagent.svg',
+    github: 'https://github.com/wajeeha-asad/CivicAgent-PK-wajeeha',
+    live: 'https://civicagent-pk-2ulotjmrihrrvjc9tzqyqm.streamlit.app/',
+  },
+
+  {
+    title: 'BrainX AI',
+    tag: 'AGENTIC AI / HACKATHON',
+    desc: 'A team-built medical AI concept for explaining MRI-based predictions and guiding a patient-to-report workflow. My contribution focused on frontend and UI.',
+    tech: ['Frontend', 'UI Design', 'Agentic AI'],
+    rating: 4,
+    match: 'TEAM BUILD',
+    episode: 'HACKATHON / 04',
+    tone: 'neura',
+    image: '/assets/projects/brainx.svg',
+    github: 'https://github.com/zaheer-ahmed77/BrainX-AI',
+    live: 'https://BrainXAI.zaheer.tech',
+  },
+
+  {
+    title: 'Flourish Well',
+    tag: 'REAL-CLIENT / WEB DEVELOPMENT',
+    desc: 'A responsive website MVP for a counseling and professional-development brand, currently being developed with real client requirements.',
+    tech: ['React', 'Vite', 'JavaScript', 'Responsive UI'],
+    rating: 4,
+    match: 'CLIENT PROJECT',
+    episode: 'CLIENT WORK / 05',
+    tone: 'coffee',
+    image: '/assets/projects/flourish-well.svg',
+    github: 'https://github.com/wajeeha-asad/Flourish-Well-Website',
+    live: 'https://flourish-well-website.vercel.app',
+  },
+
+  {
     title: 'Luxe & Latte',
     tag: 'FRONTEND / EDITORIAL UI',
     desc: 'A premium coffee-shop landing experience built around typography, visual hierarchy, responsive layouts and polished interactions.',
@@ -211,76 +253,20 @@ const projects = [
    ========================================================= */
 
 const skills = [
-  {
-    name: 'Python',
-    percent: 92,
-    group: 'Programming',
-  },
-  {
-    name: 'Machine Learning',
-    percent: 86,
-    group: 'AI / ML',
-  },
-  {
-    name: 'Generative AI',
-    percent: 80,
-    group: 'AI / ML',
-  },
-  {
-    name: 'FastAPI',
-    percent: 84,
-    group: 'Backend',
-  },
-  {
-    name: 'React',
-    percent: 86,
-    group: 'Frontend',
-  },
-  {
-    name: 'JavaScript',
-    percent: 84,
-    group: 'Frontend',
-  },
-  {
-    name: 'SQL / PostgreSQL',
-    percent: 80,
-    group: 'Data',
-  },
-  {
-    name: 'Canva',
-    percent: 90,
-    group: 'Design',
-  },
-  {
-    name: 'Git / GitHub',
-    percent: 90,
-    group: 'Tools',
-  },
-  {
-    name: 'Tailwind CSS',
-    percent: 82,
-    group: 'Frontend',
-  },
-  {
-    name: 'Figma',
-    percent: 78,
-    group: 'Design',
-  },
-  {
-    name: 'RAG / Embeddings',
-    percent: 72,
-    group: 'GenAI',
-  },
-  {
-    name: 'Docker / Cloud',
-    percent: 66,
-    group: 'DevOps',
-  },
-  {
-    name: 'Adobe Illustrator',
-    percent: 90,
-    group: 'Design',
-  },
+  { name: 'Python', percent: 45, group: 'Programming' },
+  { name: 'Machine Learning', percent: 35, group: 'AI / ML' },
+  { name: 'Generative AI', percent: 42, group: 'AI / ML' },
+  { name: 'FastAPI', percent: 55, group: 'Backend' },
+  { name: 'React', percent: 65, group: 'Frontend' },
+  { name: 'JavaScript', percent: 55, group: 'Frontend' },
+  { name: 'SQL / PostgreSQL', percent: 48, group: 'Data' },
+  { name: 'Canva', percent: 90, group: 'Design' },
+  { name: 'Git / GitHub', percent: 60, group: 'Tools' },
+  { name: 'Tailwind CSS', percent: 58, group: 'Frontend' },
+  { name: 'Figma', percent: 35, group: 'Design' },
+  { name: 'RAG / Embeddings', percent: 40, group: 'GenAI' },
+  { name: 'Docker / Cloud', percent: 20, group: 'DevOps' },
+  { name: 'Adobe Illustrator', percent: 90, group: 'Design' },
 ]
 
 /* =========================================================
@@ -921,7 +907,7 @@ function App() {
             <div>
               <div className="section-kicker">
                 <span />
-                NETFLIX-STYLE SHOWCASE
+                SELECTED WORK · AI, WEB & CLIENT PROJECTS
               </div>
 
               <h2>
@@ -929,10 +915,9 @@ function App() {
               </h2>
 
               <p className="section-sub">
-                A collection of projects built with curiosity, 
-                creativity and code. 
+                Applied AI experiments, full-stack products, hackathon builds, and a real-client website.
                 <br></br>
-                View the live demos or dive into the source code.
+                Open a live demo or explore the implementation.
               </p>
             </div>
 
@@ -1208,30 +1193,31 @@ function App() {
 
             <article className="timeline-card">
               <span className="timeline-dot" />
-
-              <div className="timeline-meta">
-                2026 — PRESENT
-              </div>
-
-              <h3>
-                Independent Technology /
-                Software Projects
-              </h3>
-
-              <p>
-                Developing practical AI/ML,
-                Python, backend, full-stack and
-                frontend projects; deploying
-                publicly, documenting with GitHub,
-                and learning through real product
-                iteration.
-              </p>
-
+              <div className="timeline-meta">2026 — PRESENT</div>
+              <h3>AI Engineering Intern · Paandaaa</h3>
+              <p>Learning and contributing in a team environment through structured training and assigned engineering tasks, with an emphasis on fundamentals, collaboration, and maintainable code.</p>
               <div className="mini-tags">
-                <span>AI / ML</span>
-                <span>Backend</span>
-                <span>Product</span>
-                <span>Cloud</span>
+                <span>Python</span><span>AI / ML</span><span>Git</span><span>Team workflow</span>
+              </div>
+            </article>
+
+            <article className="timeline-card">
+              <span className="timeline-dot" />
+              <div className="timeline-meta">2026 · CLIENT PROJECT</div>
+              <h3>Flourish Well Website</h3>
+              <p>Building a responsive website MVP around real client requirements, with a focus on clear navigation, visual consistency, and practical delivery.</p>
+              <div className="mini-tags">
+                <span>React</span><span>Vite</span><span>Responsive UI</span>
+              </div>
+            </article>
+
+            <article className="timeline-card">
+              <span className="timeline-dot" />
+              <div className="timeline-meta">2026 · HACKATHONS</div>
+              <h3>GenAI & Agentic AI Projects</h3>
+              <p>Contributed to CivicAgent PK, a policy-retrieval citizen-support prototype, and BrainX AI, a team-built medical AI concept where my role focused on frontend and UI.</p>
+              <div className="mini-tags">
+                <span>LLMs</span><span>RAG</span><span>Frontend</span><span>Collaboration</span>
               </div>
             </article>
 
