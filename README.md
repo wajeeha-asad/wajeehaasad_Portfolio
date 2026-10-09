@@ -1,198 +1,95 @@
-# Wajeeha Asad — AI Engineer Portfolio
+# Wajeeha Asad — AI Engineering & Full-Stack Portfolio
 
-> A cinematic, responsive developer portfolio showcasing AI/ML projects, full-stack applications, frontend experiences, and data-driven work.
+> Computer Science student building practical AI applications, full-stack products, and thoughtful digital experiences. Currently growing through an AI engineering internship, hackathon builds, and real-client website work.
 
 <p align="center">
-  <a href="https://wajeehaasad-portfolio.vercel.app"><strong>🌐 View Live Portfolio</strong></a>
+  <a href="https://wajeehaasad-portfolio.vercel.app"><strong>🌐 Open Live Portfolio</strong></a>
   ·
   <a href="https://github.com/wajeeha-asad"><strong>GitHub</strong></a>
   ·
   <a href="https://www.linkedin.com/in/wajeehaasad/"><strong>LinkedIn</strong></a>
 </p>
 
-## ⭐ About the Portfolio
+## About
 
-This repository contains the source code for my personal developer portfolio — designed to present not just what I build, but how I think about products, engineering, and user experience.
+This repository contains the source code for my personal portfolio. Its visual direction is cinematic and editorial, with a dark interface, interactive project cards, responsive layouts, and a product-focused presentation of my work.
 
-The portfolio combines a dark cinematic visual system with editorial layouts, interactive project cards, responsive navigation, and a product-focused presentation of my work.
+My current career direction is **AI Engineering**, with a practical focus on Python, machine learning fundamentals, LLM applications, retrieval-augmented generation (RAG), APIs, and the full-stack engineering needed to turn prototypes into usable products.
 
-My current direction is **AI Engineering**, with a focus on **Python, Machine Learning, Generative AI, FastAPI, and AI-powered applications**, while continuing to strengthen my full-stack engineering skills.
+## Selected work
 
-## 🚀 Highlights
+| Project | What it explores | Stack / contribution | Links |
+|---|---|---|---|
+| **NeuraTrack** | Full-stack learning and productivity platform | React, FastAPI, PostgreSQL, Supabase | [Demo](https://neuratrack-app.vercel.app/) · [Repo](https://github.com/wajeeha-asad/NeuraTrack) |
+| **Skill Gap Predictor** | Career skill-gap exploration and learning recommendations | Python, ML, web app | [Demo](https://skill-gap-predictor.vercel.app/) · [Repo](https://github.com/wajeeha-asad/skill-gap-predictor) |
+| **CivicAgent PK** | Urdu/English citizen-support prototype using policy retrieval and LLM responses | My contribution: LLM prompts and ChromaDB/RAG workflow | [Demo](https://civicagent-pk-2ulotjmrihrrvjc9tzqyqm.streamlit.app/) · [Repo](https://github.com/wajeeha-asad/CivicAgent-PK-wajeeha) |
+| **BrainX AI** | Team hackathon concept for explaining MRI-based predictions and organizing a patient-to-report workflow | My contribution: frontend and UI | [Project site](https://BrainXAI.zaheer.tech) · [Team repo](https://github.com/zaheer-ahmed77/BrainX-AI) |
+| **Flourish Well** | Responsive website MVP for a counseling and professional-development brand | Real-client website, currently in progress | [Preview](https://flourish-well-website.vercel.app/) · [Repo](https://github.com/wajeeha-asad/Flourish-Well-Website) |
+| **Student Performance Prediction** | Applied ML experiment with an interactive app | Python, Pandas, scikit-learn, Streamlit | [Demo](https://ml-student-performance-prediction.streamlit.app/) · [Repo](https://github.com/wajeeha-asad/student-performance-prediction) |
+| **Velora** | Fashion e-commerce concept with editorial product presentation | React, Vite, JavaScript, CSS | [Demo](https://velora-atelier-e-com.vercel.app/) · [Repo](https://github.com/wajeeha-asad/velora-digital-atelier) |
+| **Luxe & Latte** | Coffee-brand landing experience focused on visual storytelling | HTML, CSS, JavaScript | [Demo](https://wajeeha-asad.github.io/Luxe-Latte-Premium-Coffee-Experience/) · [Repo](https://github.com/wajeeha-asad/Luxe-Latte-Premium-Coffee-Experience) |
 
-- Cinematic hero section with personalized visual design
-- Featured project showcase with previews, tech stacks, live demos, and repositories
-- Responsive project carousel and mobile-friendly layouts
-- Categorized technical skills
-- **Discover → Design → Build → Refine** development process
-- Experience, recognition, and current-learning sections
-- Downloadable CV / resume
-- Responsive desktop, tablet, and mobile navigation
-- Functional contact form powered by Formspree
-- Environment-based configuration for contact form integration
-- Deployed with Vercel
+> Hackathon and client projects are labeled as collaborative or in-progress work where applicable. BrainX AI is a prototype concept, not a clinically validated diagnostic product.
 
-## 🧠 Featured Projects
+## Current chapter
 
-| Project | Focus | Technologies | Demo |
-| --- | --- | --- | --- |
-| **NeuraTrack** | AI / Full Stack | React, FastAPI, PostgreSQL, Supabase | [Live](https://neuratrack-app.vercel.app) |
-| **Skill Gap Predictor** | AI / Career Intelligence | Python, Flask, scikit-learn | [Live](https://skill-gap-predictor.vercel.app) |
-| **Luxe & Latte** | Frontend / Editorial UI | HTML, CSS, JavaScript | [Live](https://wajeeha-asad.github.io/Luxe-Latte-Premium-Coffee-Experience/) |
-| **Velora** | Frontend / E-commerce | React, Vite, JavaScript, CSS | [Live](https://velora-atelier-e-com.vercel.app) |
-| **Student Performance Prediction** | ML / Data Science | Python, Pandas, scikit-learn, Streamlit | [Live](https://ml-student-performance-prediction.streamlit.app) |
+- **AI Engineering Intern — Paandaaa:** learning through structured training, team collaboration, and assigned engineering tasks.
+- **Client work — Flourish Well:** building a responsive website MVP around real requirements.
+- **Hackathons — CivicAgent PK & BrainX AI:** experience with a GenAI/RAG workflow and collaborative frontend/UI delivery.
+- **Learning:** Python, ML fundamentals, LLM applications, RAG, API development, and software engineering practices.
 
-### ⭐ NeuraTrack
+## Technology
 
-An AI-oriented learning and productivity platform built as a full-stack application. It combines learning paths, focus sessions, analytics, achievements, notifications, authentication, and an AI companion into one product experience.
+**Programming:** Python, JavaScript, C++, C#  
+**AI / Data:** scikit-learn, Pandas, NumPy, LLM APIs, prompt engineering, RAG fundamentals  
+**Backend & databases:** FastAPI, REST APIs, PostgreSQL, SQLAlchemy, Supabase  
+**Frontend:** React, Vite, HTML, CSS, Tailwind CSS  
+**Tools:** Git, GitHub, Streamlit, Vercel, VS Code  
+**Design:** Canva, Adobe Illustrator, UI/UX fundamentals
 
-**Stack:** React · FastAPI · PostgreSQL · Supabase
+I am actively developing my AI/ML and Python foundations; this list reflects tools I have used or am learning, not expert-level mastery of every technology.
 
-The portfolio links each featured project to its live deployment and GitHub repository where available.
+## Design and engineering approach
 
-## 🛠️ Tech Stack
+1. **Discover** — clarify the problem, user needs, and constraints.
+2. **Design** — plan the flow, interface, and visual direction.
+3. **Build** — implement components, APIs, data handling, and interactions.
+4. **Refine** — test, improve accessibility and responsiveness, document, and ship.
 
-### Frontend
+## Run locally
 
-- React 19
-- TypeScript
-- Vite
-- HTML5
-- CSS3
-- Responsive UI development
-
-### AI / Data / Backend
-
-- Python
-- Machine Learning
-- scikit-learn
-- FastAPI
-- Flask
-- PostgreSQL
-- Supabase
-- Streamlit
-
-### Tools & Platforms
-
-- Git & GitHub
-- VS Code
-- npm
-- Vercel
-- Formspree
-- Canva
-- Figma
-- Adobe Illustrator
-
-## 📁 Project Structure
-
-```text
-wajeehaasad_Portfolio/
-├── public/
-│   └── assets/
-│       ├── projects/
-│       └── Wajeehaasad_CV.pdf
-├── src/
-│   ├── main.tsx
-│   └── styles.css
-├── .env.example
-├── .gitignore
-├── index.html
-├── package.json
-├── package-lock.json
-├── tsconfig.json
-├── tsconfig.app.json
-├── tsconfig.node.json
-└── vite.config.ts
-```
-
-## ⚡ Getting Started
-
-### Prerequisites
-
-- Node.js 18+
-- npm
-
-### Installation
+Prerequisites: Node.js and npm.
 
 ```bash
 git clone https://github.com/wajeeha-asad/wajeehaasad_Portfolio.git
 cd wajeehaasad_Portfolio
 npm install
-```
-
-Start the development server:
-
-```bash
 npm run dev
 ```
 
-Open the local Vite development URL shown in your terminal.
-
-## 📦 Production Build
+Build and preview a production bundle:
 
 ```bash
 npm run build
 npm run preview
 ```
 
-## ✉️ Contact Form Setup
+## Contact form configuration
 
-The contact form uses Formspree and reads its endpoint from an environment variable.
-
-Create a `.env` file in the project root:
+The contact form uses Formspree. Create a local `.env` file using `.env.example` as a guide:
 
 ```env
 VITE_FORMSPREE_ENDPOINT=https://formspree.io/f/YOUR_FORM_ID
 ```
 
-Use `.env.example` as the template.
+Never commit private keys, credentials, or a real `.env` file.
 
-> **Security:** Never commit your real `.env` file, API keys, credentials, or other private configuration.
-
-## 🎨 Design & Engineering Approach
-
-I use a simple product-building workflow throughout the portfolio and my projects:
-
-1. **Discover** — understand the problem, users, goals, and constraints.
-2. **Design** — define the requirements, experience, interface, and visual direction.
-3. **Build** — implement reusable components, APIs, data handling, validation, and interactions.
-4. **Refine** — test, improve responsiveness, polish details, and ship.
-
-## 🌐 Deployment
-
-The portfolio is built with **Vite + React + TypeScript** and deployed on **Vercel**.
-
-**Live Portfolio:** https://wajeehaasad-portfolio.vercel.app
-
-## 👩‍💻 About Me
-
-I'm **Wajeeha Asad**, a Computer Science student building toward a career in **AI Engineering**.
-
-I enjoy turning practical problems into software using **Python, Machine Learning, AI, modern web technologies, and thoughtful UX**. I also explore full-stack development because strong AI products need more than models — they need reliable APIs, useful interfaces, and real product thinking.
-
-### Current Focus
-
-- 🤖 AI Engineering
-- 🐍 Python
-- 🧠 Machine Learning & Generative AI
-- ⚡ FastAPI & backend development
-- 🌐 Full-stack application development
-- 🎨 Product-focused UI/UX
-
-## 📫 Connect
+## Links
 
 - **Portfolio:** https://wajeehaasad-portfolio.vercel.app
 - **GitHub:** https://github.com/wajeeha-asad
 - **LinkedIn:** https://www.linkedin.com/in/wajeehaasad/
 
-## 📄 Resume
+---
 
-A current CV is available directly from the portfolio through the downloadable resume link.
-
-## ⭐ Feedback
-
-If you explore the portfolio and have suggestions about the projects, UX, accessibility, performance, or engineering presentation, feedback is welcome.
-
-## 📜 License
-
-This is a personal portfolio project. The source code is available for learning and reference, but portfolio-specific content, images, branding, and personal assets should not be reused without permission.
+*Build it. Understand it. Make it better.*
