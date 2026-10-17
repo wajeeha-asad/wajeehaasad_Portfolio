@@ -1414,11 +1414,38 @@ function App() {
                 </span>
 
                 <h3>
-                  Pak Angels × ASPIRE Pakistan GenAI & Agentic AI Hackathon/Course
+                  Generative & Agentic AI Training Certificate
                 </h3>
 
                 <p>
-                  Completed the program and contributed to team prototypes including CivicAgent PK and BrainX AI. Participation and project work are highlighted here; no prize or ranking is claimed.
+                  Completed Generative AI and Agentic AI training through the Pak Angels / ASPIRE Pakistan learning program, building knowledge of LLM-powered applications and agentic workflows. Related team projects include CivicAgent PK and BrainX AI.
+                </p>
+                <div className="mini-tags">
+                  <span>Generative AI</span><span>Agentic AI</span><span>LLM Applications</span>
+                </div>
+              </div>
+
+              <span className="verified">
+                ✓
+              </span>
+            </article>
+
+            <article>
+              <span className="cert-icon">
+                TP
+              </span>
+
+              <div>
+                <span className="timeline-meta">
+                  RECOGNITION · 2026
+                </span>
+
+                <h3>
+                  Top Performer Award
+                </h3>
+
+                <p>
+                  Recognized as a Top Performer in the Generative and Agentic AI program. This recognition is listed separately from the training certificate.
                 </p>
               </div>
 
