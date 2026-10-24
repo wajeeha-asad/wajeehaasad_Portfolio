@@ -160,6 +160,20 @@ const projects = [
   },
 
   {
+    title: 'PhishTrace',
+    tag: 'CYBERSECURITY / HACKATHON',
+    desc: 'A team hackathon project exploring phishing investigation: examining suspicious URLs and messages, surfacing indicators of compromise, and organizing evidence to support a clearer risk assessment.',
+    tech: ['Python', 'Cybersecurity', 'Phishing Analysis', 'Streamlit'],
+    rating: 4,
+    match: 'TEAM BUILD',
+    episode: 'HACKATHON / 03',
+    tone: 'data',
+    image: '/assets/projects/phishtrace-project.svg',
+    github: '',
+    live: '',
+  },
+
+  {
     title: 'CivicAgent PK',
     tag: 'GENAI / RAG HACKATHON',
     desc: 'A bilingual citizen-support prototype that retrieves relevant policy information and helps structure complaint responses using an LLM-assisted workflow.',
@@ -327,23 +341,29 @@ function ProjectCard({
         </div>
 
         <div className="poster-actions">
-          <a
-            className="poster-play"
-            href={p.live}
-            target="_blank"
-            rel="noreferrer"
-            aria-label={`Open ${p.title} live project`}
-          >
-            <Icon name="play" size={14} />
-          </a>
+          {p.live && (
+            <a
+              className="poster-play"
+              href={p.live}
+              target="_blank"
+              rel="noreferrer"
+              aria-label={`Open ${p.title} live project`}
+            >
+              <Icon name="play" size={14} />
+            </a>
+          )}
 
-          <a
-            href={p.github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
+          {p.github && (
+            <a
+              href={p.github}
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          )}
+
+          {!p.live && !p.github && <span className="project-status">PROJECT IN PROGRESS</span>}
 
         </div>
       </div>
@@ -381,23 +401,21 @@ function ProjectCard({
         </div>
 
         <div className="project-links">
-          <a
-            href={p.github}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Icon name="github" size={13} />
-            Source
-          </a>
+          {p.github && (
+            <a href={p.github} target="_blank" rel="noreferrer">
+              <Icon name="github" size={13} />
+              Source
+            </a>
+          )}
 
-          <a
-            href={p.live}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Icon name="globe" size={13} />
-            Live project
-          </a>
+          {p.live && (
+            <a href={p.live} target="_blank" rel="noreferrer">
+              <Icon name="globe" size={13} />
+              Live project
+            </a>
+          )}
+
+          {!p.github && !p.live && <span className="project-status">Repository and demo to be added</span>}
         </div>
       </div>
     </article>
@@ -1456,21 +1474,25 @@ function App() {
 
             <article>
               <span className="cert-icon">
-                01
+                PT
               </span>
 
               <div>
                 <span className="timeline-meta">
-                  UPCOMING · 20 OCT 2026
+                  HACKATHON PARTICIPATION · 20 OCT 2026
                 </span>
 
                 <h3>
-                  AI Innovation Hackathon 2026
+                  AI Innovation Hackathon 2026 — PhishTrace
                 </h3>
 
                 <p>
-                  Team lead for the AI Skills Proof Engine project with the Women in AI Research Club. Listed as an upcoming participation, not a completed award or result.
+                  Participated as team lead of Wu Wei Coders, working on PhishTrace, a team project focused on phishing investigation. Participation is recorded separately from awards; the event certificate will be added when received.
                 </p>
+                <div className="mini-tags">
+                  <span>Team Lead</span><span>PhishTrace</span><span>Cybersecurity</span>
+                </div>
+                <p className="certificate-pending">Certificate pending — will be added when issued.</p>
               </div>
             </article>
 
