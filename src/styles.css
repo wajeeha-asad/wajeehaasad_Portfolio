@@ -1635,3 +1635,20 @@ footer {
     display: none;
   }
 }
+
+
+/* PhishTrace project status / pending certificate */
+.project-status {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted, #b4b4c2);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.certificate-pending {
+  margin-top: 0.65rem;
+  color: var(--muted, #b4b4c2);
+  font-size: 0.82rem;
+  font-style: italic;
+}
